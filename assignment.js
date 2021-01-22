@@ -65,9 +65,10 @@ console.log("Highest name is:", max);
 
 // hotelcost
 function hotelCost(hotel) {
-    var cost = hotel * 10;
+    var cost = hotel * 20;
     return cost;
 }
+// after 10 days hotel Cost reduce 10%
 var cost = hotelCost(700);
-var total = cost / 7;
+var total = cost - 70*10;
 console.log(total);
