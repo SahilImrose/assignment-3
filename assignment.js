@@ -1,3 +1,6 @@
+// https://github.com/SahilImrose/assignment-3
+
+
 // kilometerToMeter
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
@@ -45,7 +48,11 @@ var calculator3 = budgetCalculator3(500)
 var total = calculator + calculator2 + calculator3;
 console.log(total);
 
-var friends = ["kalam","zolamMollaSaad","tolmmulla"];
+
+
+
+// megafriends
+var friends = ["kalam", "zolamMollaSaad", "tolmmulla"];
 var max = friends[0];
 for (var i = 0; i < friends.length; i++) {
     var element = friends[i];
@@ -53,4 +60,14 @@ for (var i = 0; i < friends.length; i++) {
         max = element;
     }
 }
-console.log("Highest value is: ", max);
+console.log("Highest name is:", max);
+
+
+// hotelcost
+function hotelCost(hotel) {
+    var cost = hotel * 10;
+    return cost;
+}
+var cost = hotelCost(700);
+var total = cost / 7;
+console.log(total);
